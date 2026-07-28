@@ -1,14 +1,11 @@
 # Computer Vision Basics
 
-   OpenCV fundamentals for STEM projects.
+ This project is a template for projects using OpenCV. For now, Python and Numpy are here. As time progresses, C++ will be added, as well as Mediapipe, YOLO, and PyTesseract.
 
-   ## Topics
-   - Image capture and processing
-   - Color space conversion
-   - Contour detection
-   - Object tracking
+## Topics
+ 
 
-   ## Quick Start
+## Quick Start
 
 ```bash
    pip install -r requirements.txt
