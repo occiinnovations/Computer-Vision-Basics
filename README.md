@@ -2,9 +2,6 @@
 
  This project is a template for projects using OpenCV. For now, Python and Numpy are here. As time progresses, C++ will be added, as well as Mediapipe, YOLO, and PyTesseract.
 
-## Topics
- 
-
 ## Quick Start
 
 ```bash
@@ -12,6 +9,7 @@
    python starter.py
 ```
 
-   ## Files
-   - `starter.py` — Basic OpenCV examples
-   - `requirements.txt` — Dependencies
+## Files
+
+- `starter.py` — Basic OpenCV examples
+- `requirements.txt` — Dependencies
