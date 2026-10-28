@@ -8,8 +8,3 @@
    pip install -r requirements.txt
    python starter.py
 ```
-
-## Files
-
-- `starter.py` — Basic OpenCV examples
-- `requirements.txt` — Dependencies
