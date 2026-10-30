@@ -1,6 +1,26 @@
 import cv2
 import numpy as np
 
+libs = ["Mediapipe", "YOLOv8", "PyTorch", "PyTesseract"]
+
+choices = []
+
+for choice in libs:
+    print(f"Apply {choice} to OpenCV?")
+    y_n = input("Yes or No: ")
+
+    if y_n == "Yes" or y_n == "yes":
+        choices.append(choice)
+    elif y_n == "No" or y_n == "No":
+        pass
+    else:
+        print("Error, please enter yes or no")
+        y_n == input("Yes or No: ")
+        if y_n == "Yes" or y_n == "yes":
+            choices.append(choice)
+
+print(f"You chose {choices}.")
+
 print(f"OpenCV Version: {cv2.__version__}\nStarting OpenCV...")
 
 metime = cv2.VideoCapture(0, cv2.CAP_DSHOW)
